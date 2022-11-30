@@ -1,0 +1,19 @@
+Java: conceitos de orientação a objetos
+
+Orientação a objetos foi criado para mapear um mundo real em um mundo computacional.
+Partindo do principio de que a objetos ou coisas no mundo real que tem multiplas caracteristicas e métodos - ou seja não podemos representa-los como variáveis simples - onde tem-se um conjunto de caracteristicas e comportamentos que são designados a ele.
+
+Domínio - geralmente são classes que representam a lógica de negocios. também como conhecido como Entidades.
+
+Coesão
+
+Esta relacionado ao proposito de cada classe.
+
+por exemplo:
+	
+	Ao criarmos uma classe, não podemos  atribuir caracteristicas que fazem parte de outra classe/entidade. fazendo uma analogia bem simples, ao criarmos uma classe
+Aluno, atribuimos a ele caracteristicas que relacionam a entidade aluno como por exemplo: matricula, nome, disciplina, idade ... não podemos atribuir caracteristicas de outra classe dominante como professor onde eles são objetos diferentes e não podem estar em uma mesma classe.
+
+
+
+
