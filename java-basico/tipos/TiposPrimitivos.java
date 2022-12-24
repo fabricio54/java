@@ -1,4 +1,4 @@
-package OrientacaoObjetos.Introducao;
+package tipos;
 
 public class TiposPrimitivos {
     

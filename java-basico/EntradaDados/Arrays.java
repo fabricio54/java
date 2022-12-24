@@ -1,4 +1,4 @@
-package JavaOnline;
+package EntradaDados;
 
 public class Arrays{
     

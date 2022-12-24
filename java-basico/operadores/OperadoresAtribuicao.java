@@ -1,4 +1,4 @@
-package JavaOnline;
+package operadores;
 
 public class OperadoresAtribuicao {
     public static void main(String[] args){

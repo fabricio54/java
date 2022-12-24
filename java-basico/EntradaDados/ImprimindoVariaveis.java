@@ -1,4 +1,4 @@
-package JavaOnline;
+package EntradaDados;
 
 // tipo 1 comentario
 /*

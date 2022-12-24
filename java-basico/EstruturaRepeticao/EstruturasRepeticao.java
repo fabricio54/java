@@ -1,4 +1,4 @@
-package OrientacaoObjetos.Introducao;
+package EstruturaRepeticao;
 
 public class EstruturasRepeticao {
     public static void main(String[] args){

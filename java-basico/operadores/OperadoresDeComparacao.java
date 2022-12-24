@@ -1,4 +1,4 @@
-package JavaOnline;
+package operadores;
 
 public class OperadoresDeComparacao {
     public static void main(String[] args){

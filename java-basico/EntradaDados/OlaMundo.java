@@ -1,4 +1,4 @@
-package JavaOnline;
+package EntradaDados;
 
 public class OlaMundo {
     public static void main(String[] args){
