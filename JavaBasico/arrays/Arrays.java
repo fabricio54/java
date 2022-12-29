@@ -1,4 +1,4 @@
-package EntradaDados;
+package arrays;
 
 public class Arrays{
     
