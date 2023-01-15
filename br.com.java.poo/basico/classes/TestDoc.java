@@ -1,3 +1,5 @@
+package classes;
+
 public class TestDoc {
     public static void main(String[] args){
       Doc cachorro = new Doc();

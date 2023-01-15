@@ -1,3 +1,5 @@
+package conta;
+
 public class Conta {
 
     String cliente;
