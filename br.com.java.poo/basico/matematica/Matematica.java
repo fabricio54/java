@@ -1,3 +1,4 @@
+
 public class Matematica {
     
     int maior(int um, int dois){
@@ -8,6 +9,16 @@ public class Matematica {
 
     int soma(int v1, int v2){
         return v1 + v2;
+    }
+
+    /* metodo que recebe um número indefinido de argumentos e retorna a soma de todos eles. também usaremos o conceito de sobrecarga de métodos, se por acaso você passar argumentos de outros tipos, temos que passar primeiro e sempre deixar os que recebem mais valores para o final*/
+
+    int soma(int ... numeros){
+        int soma = 0;
+        for (int i : numeros) {
+            soma += i;
+        }
+        return soma;
     }
 
     int RaizQuadrada(int num){
