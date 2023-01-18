@@ -47,12 +47,11 @@ public class Matematica {
     }
     
     /* método que recebe mais de dois números */
-    double media(double[] ... numeros){
+    double media(double ... numeros){
         int quant = 0;
-        for (double[] ds : numeros) {
+        for(int i = 0; i < numeros.length; i++){
             quant++;
-        }
-        return this.soma(numeros) / quant;
+        }return this.soma(numeros) / quant;
     }
 
     /* método que recebe dois números em strings */

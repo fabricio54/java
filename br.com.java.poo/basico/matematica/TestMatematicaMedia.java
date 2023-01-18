@@ -7,5 +7,7 @@ public class TestMatematicaMedia {
 
         /* exemplo feito com String que posteriormente dentro do método será convertido em double e retornará o valor em double */
         System.out.println(media.media("5", "3"));
+
+        System.out.println(media.media(2, 3, 5, 6));
     }
 }
