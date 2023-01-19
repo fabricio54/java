@@ -54,6 +54,20 @@ public class Matematica {
         }return this.soma(numeros) / quant;
     }
 
+    /* métodos que recebem Strings de números */
+    double media(String x){
+        double ix = Double.parseDouble(x);
+        return ix;
+    }
+
+    /* métodos que recebem strings de vários números */
+    double media(Strings ... numeros){
+        int quant = 0;
+        for(int i = 0; i < numeros.length; i++){
+            quant++;
+        }return this.soma()
+    }
+
     /* método que recebe dois números em strings */
     double media(String x, String y){
         System.out.println("media(String x, String y) ");
