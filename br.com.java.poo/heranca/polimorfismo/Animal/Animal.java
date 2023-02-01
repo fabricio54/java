@@ -3,7 +3,7 @@
 // classe pai
 public class Animal {
     
-    private int serial; // não pode ser acessado pelas classes filhas
+    // private int serial; não pode ser acessado pelas classes filhas
     double peso;
     String comida;
 

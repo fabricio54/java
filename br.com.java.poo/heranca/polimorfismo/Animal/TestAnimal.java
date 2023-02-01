@@ -1,21 +1,26 @@
-public class AnimalTest {
+public class TestAnimal {
+    
+    // método estático da classe que recebe um animal e retorna o método fazer barulho definido para ele próprio
+    public static void fazerBarulho(Animal animal){
+        animal.fazerBarulho();
+    }
+    
     public static void main(String[] args){
         Animal cachorro = new Cachorro(23, "Carne");
         Animal galinha = new Galinha(33, "Milho");
 
         // como saber o tipo do objeto
         System.out.println(cachorro instanceof Cachorro);
-        System.out.println(cachorro instanceof Galinha);
 
         // métodos que por padrão ja existem ao criar sua classe
         
         // Método de comparação de objetos
-        System.out.println(cachorro.equals(galinha)); // retorno um valor booleano
-        System.out.println(cachorro.hashCode());
+        ////System.out.println(cachorro.equals(galinha)); // retorno um valor booleano
+        //System.out.println(cachorro.hashCode());
         // retorna um número serial
-        System.out.println(cachorro.getClass());
+        //System.out.println(cachorro.getClass());
         // retorn a classe a que pertence o objeto
-        System.out.println(cachorro.toString());
+        //System.out.println(cachorro.toString());
         // retorna a representação da string objeto
         
         // mesmos atributos
@@ -32,6 +37,9 @@ public class AnimalTest {
         galinha.dormir();
         galinha.fazerBarulho();
         */
+        
+        // com o polimorfismo eliminamos estrutruras condicionais
+        fazerBarulho(cachorro);
 
     }
 }
