@@ -23,14 +23,13 @@ public class DividePorZero {
                 //InputMismatchException tipo
                 //AritheticException      0
             }
-            catch(InputMismatchException e1){
-                System.err.println("Números devem ser inteiros");
+            // como o problema é o mesmo, resolvemos em um único catch
+            catch(InputMismatchException  | ArithmeticException e1){
+                System.err.println("Número Inválido ");
+                e1.printStackTrace();
+                // retorna uma pilha dos erros que foram identificados e1.getStackTrace();
+                // retorna uma pilha de erros em string e1.getMessage();
                 s.nextLine(); //descarta a entrada errada dos números e armazena outros
-            }
-            catch(ArithmeticException e2){
-                //err significa error. imprime na tela a mensagem de uma cor diferente
-                System.err.println("Divisor deve ser diferente de zero");
-                s.nextLine(); //descarta a entrada errada dos números
             }
             // independente dos trechos de códigos acima sempre será executado esse de baixo
             finally {
