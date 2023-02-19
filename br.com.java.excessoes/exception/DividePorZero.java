@@ -2,6 +2,16 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class DividePorZero {
+
+    public static void dividir(Scanner s) throws InputMismatchException, ArithmeticException{
+        System.out.println("Número: ");
+        int a = s.nextInt();
+        System.out.println("Divisor: ");
+        int d = s.nextInt();
+                
+        // se retorna um erro a linha de abaixo não será executada
+        System.out.println(a/d);
+    }
     public static void main(String[] args){
         
         // lançamento de excessão
@@ -10,14 +20,7 @@ public class DividePorZero {
 
         do {
             try {
-                System.out.println("Número: ");
-                int a = s.nextInt();
-                System.out.println("Divisor: ");
-                int d = s.nextInt();
-                
-                // se retorna um erro a linha de abaixo não será executada
-                System.out.println(a/d);
-                
+                dividir(s);
                 // caso passe a divisão em cima não gere um erro
                 continua = false;
                 //InputMismatchException tipo

@@ -1,0 +1,42 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assertions",
+            "request": "launch",
+            "mainClass": "Assertions",
+            "projectName": "java_369b1f2e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DividePorZero",
+            "request": "launch",
+            "mainClass": "DividePorZero",
+            "projectName": "java_369b1f2e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcecoesComuns",
+            "request": "launch",
+            "mainClass": "ExcecoesComuns",
+            "projectName": "java_369b1f2e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SenhaTeste",
+            "request": "launch",
+            "mainClass": "SenhaTeste",
+            "projectName": "java_369b1f2e"
+        }
+    ]
+}
